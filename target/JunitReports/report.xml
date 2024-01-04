@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="3" time="61.541">
+    <testcase classname="Validating Hireprous login page" name="Login page field validation" time="41.69">
+        <system-out>
+            <![CDATA[Given User navigate to Hireprous page.......................................passed
+Then User verifies login page fields........................................passed
+And User verifies Hireprous logo............................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Validating Hireprous login page" name="Login to application with Invalid user credentials" time="8.518">
+        <system-out>
+            <![CDATA[Given User is on Hireprous page.............................................passed
+When User enters invalid username and password..............................passed
+And User clicks on Log IN button............................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Validating Hireprous login page" name="Login to application with valid user credentials" time="10.791">
+        <system-out>
+            <![CDATA[Given User is on Hireprous login page.......................................passed
+When User enters username and password......................................passed
+And User clicks on Log IN button............................................passed
+Then User login must be successful..........................................passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>
